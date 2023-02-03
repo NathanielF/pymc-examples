@@ -596,7 +596,7 @@ ax = axs[0]
 ax1 = axs[1]
 ax2 = axs[2]
 
-## Derived from MV norm fit.
+# Derived from MV norm fit.
 z = multivariate_normal(
     [lmx_mean, joined_uniform["imputed_empower"].mean()], [[8.9, 5.4], [5.4, 19]]
 ).pdf(joined_uniform[["imputed_lmx", "imputed_empower"]])
